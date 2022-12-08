@@ -1,12 +1,11 @@
 #I have to define many variables
-Loop = 0
 
-#Above are all the loops and below are the Achievements
 First_Steps = 0
 Mom_knows_best = 0
 JUSTRELAX = 0
 VeryRudeAwakening = 0
 WiseWORDS = 0
+Loop = 0
 while Loop == 0: #In case the player makes a typo, they will reset. This is very important for grade twos.
     Title = """                        
      _______ _            ____ _____ _____        _                       
@@ -263,31 +262,14 @@ while Loop == 0: #In case the player makes a typo, they will reset. This is very
                                         (__)    (_)                    (__)   
                                                                     """
                                 print (Splash)
+                                #I love this wet font for the key story moment.
                                 print("Andy climbs out the pool fast, is he hurt? Scared? Nope! He runs right to the diving board to jump again!")
                                 print("Andy keeps doing jumps and once you recovered after the sprint, so do you.")                                                                        
                                 print("After a great jumping session at the pool, you and Andy go back to your houses. Whenever Andy is nervous, he thinks back to this time.")
                                 if JUSTRELAX == 0: 
                                     print("Just Relax and Splash")
                                     JUSTRELAX = 1
-                                    Loop = 0
-                                    print("'I'm up now, and energized! He climbs up the the ladder quickly.'")
-                                    Splash = """
-                                           .---. ,---.  ,-.      .--.     .---. .-. .-. 
-                                          ( .-._)| .-.\ | |     / /\ \   ( .-._)| | | | 
-                                         (_) \   | |-' )| |    / /__\ \ (_) \   | `-' | 
-                                         _  \ \  | |--' | |    |  __  | _  \ \  | .-. | 
-                                        ( `-'  ) | |    | `--. | |  |)|( `-'  ) | | |)| 
-                                         `----'  /(     |( __.'|_|  (_) `----'  /(  (_) 
-                                                (__)    (_)                    (__)   
-                                                                            """
-                                    print (Splash) #I love this wet font for the splash, the key moment in the story.
-                                    print("Andy climbs out the pool fast, is he hurt? Scared? Nope! He runs right to the diving board to jump again!")
-                                    print("Andy keeps doing jumps and once you recovered after the sprint, so do you.")                                                                        
-                                    print("After a great jumping session at the pool, you and Andy go back to your houses. Whenever Andy is nervous, he thinks back to this time.")
-                                    if JUSTRELAX == 0: 
-                                        print("Just Relax and Splash")
-                                        JUSTRELAX = 1
-                                    Loop = 0
+                                Loop = 0
                     elif C10 == "3":
                         Loop = 10
                         while Loop == 10:
