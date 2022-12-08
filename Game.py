@@ -331,13 +331,13 @@ while Loop == 0: #In case the player makes a typo, they will reset. This is very
             print("Achievements Collected:\n")        #This is a great way to get the player to replay the game and explore different options
             if First_Steps == 1:
                 print("First Steps: You completed the tutorial.\n")
-            elif Mom_knows_best == 1:
+            if Mom_knows_best == 1:
                 print("Mother Knows Best: You asked your mom for help.")
-            elif JUSTRELAX == 1:
+            if JUSTRELAX == 1:
                 print("Just Relax: You helped Andy make a big splash.")
-            elif VeryRudeAwakening == 1:
+            if VeryRudeAwakening == 1:
                 print("Very Rude Awakening: You woke Andy up rudely, very rudely.")
-            elif WiseWORDS == 1:
+            if WiseWORDS == 1:
                 print("Wise Words: You inspired Andy or confused him.")
             input("Press ANY button to return")
             Loop = 0
